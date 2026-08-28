@@ -1,0 +1,36 @@
+# Jupyter Notebooks y Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+*.nbconvert.ipynb
+
+
+# Python, Cache y Archivos Compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# Entornos Virtuales
+venv/
+.venv/
+env/
+env.bak/
+venv.bak/
+ENV/
+
+# Variables de Entorno y Credenciales
+.env
+.env.local
+*.pem
+*.key
+
+# Configuración de IDEs y Sistema Operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
