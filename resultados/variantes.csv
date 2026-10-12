@@ -1,0 +1,15 @@
+modelo,texto,prefijo_regla,features_extra,cv_auc,holdout_auc,auc_rep_media,auc_rep_std,mejores_parametros,tiempo_s
+SBERT + Reg. Logística,SBERT original,False,True,0.8347313961059172,0.8561231884057972,0.844205771387777,0.021069560725069218,{'clf__C': 1},12.23469591140747
+Regresión Logística,Sin limpiar,True,True,0.8224288197435419,0.8461231884057971,0.8379031135462501,0.020554502899145028,"{'clf__C': 1, 'clf__class_weight': 'balanced', 'feats__tfidf__ngram_range': (1, 2)}",9.442370653152466
+SBERT + Reg. Logística,SBERT limpio,False,True,0.8304719820167182,0.8417270531400967,0.8365841852430863,0.020583014388898813,{'clf__C': 1},5.2886316776275635
+Regresión Logística,Sin limpiar,False,True,0.8216170834048281,0.8417753623188406,0.8357877239487621,0.021505046659911875,"{'clf__C': 1, 'clf__class_weight': 'balanced', 'feats__tfidf__ngram_range': (1, 2)}",7.12084174156189
+Regresión Logística,Lematizado,True,True,0.8252084346114401,0.8564855072463768,0.8355629041035578,0.020223193559792105,"{'clf__C': 1, 'clf__class_weight': None, 'feats__tfidf__ngram_range': (1, 1)}",6.283493995666504
+Regresión Logística,Limpio,True,True,0.8191244572359639,0.8469927536231884,0.8324101326010003,0.021533199871519044,"{'clf__C': 1, 'clf__class_weight': None, 'feats__tfidf__ngram_range': (1, 1)}",7.195646524429321
+Regresión Logística,Lematizado,False,True,0.8207664840896236,0.8502294685990338,0.8317583083797583,0.020334451913083425,"{'clf__C': 1, 'clf__class_weight': 'balanced', 'feats__tfidf__ngram_range': (1, 1)}",4.473274230957031
+Regresión Logística,Limpio,False,True,0.8162253534742167,0.839915458937198,0.8285873931827894,0.021899831335330803,"{'clf__C': 1, 'clf__class_weight': 'balanced', 'feats__tfidf__ngram_range': (1, 1)}",5.086832046508789
+Regresión Logística,Lematizado,True,False,0.8032921297182913,0.8332004830917875,0.8158462134083956,0.02176948198857321,"{'clf__C': 1, 'clf__class_weight': None, 'feats__tfidf__ngram_range': (1, 2)}",5.044039249420166
+Regresión Logística,Sin limpiar,True,False,0.7861785251663563,0.8182729468599034,0.8090312744365324,0.024606392556464036,"{'clf__C': 1, 'clf__class_weight': None, 'feats__tfidf__ngram_range': (1, 1)}",5.989150285720825
+Regresión Logística,Lematizado,False,False,0.7933359620663695,0.8213405797101448,0.8053721624043484,0.022393548355762467,"{'clf__C': 1, 'clf__class_weight': None, 'feats__tfidf__ngram_range': (1, 2)}",3.7034740447998047
+Regresión Logística,Limpio,True,False,0.7843717355878213,0.8073067632850242,0.8019081751094009,0.022445355623641892,"{'clf__C': 10, 'clf__class_weight': 'balanced', 'feats__tfidf__ngram_range': (1, 2)}",7.027238368988037
+Regresión Logística,Sin limpiar,False,False,0.7782147126477464,0.8116304347826087,0.8011156278673043,0.024706120580456084,"{'clf__C': 1, 'clf__class_weight': 'balanced', 'feats__tfidf__ngram_range': (1, 1)}",19.91396188735962
+Regresión Logística,Limpio,False,False,0.776347730499371,0.788707729468599,0.7912130803753773,0.024577422299638475,"{'clf__C': 10, 'clf__class_weight': None, 'feats__tfidf__ngram_range': (1, 2)}",4.662584066390991

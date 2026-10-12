@@ -1,0 +1,8 @@
+{
+  "modelo": "SBERT + Reg. Logística",
+  "mejores_parametros": "{'clf__C': 1}",
+  "cv_roc_auc": 0.8347313961059172,
+  "holdout_roc_auc": 0.8560748792270532,
+  "text_col": "body",
+  "dispositivo_entrenamiento": "cuda"
+}
